@@ -19,18 +19,28 @@
 }
 
 @keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
-li{
- display:flex; 
+li {
+  display: flex;
+  padding-bottom: 20px;
 }
-.image{
+.image {
   width: 20%;
 }
 
-.info{
+.info {
   width: 80%;
-  text-align:left;
+  text-align: left;
+}
+
+h2 {
+  padding-top: 0;
+  margin-top: 0;
 }
